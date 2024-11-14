@@ -72,16 +72,16 @@ function CrearProyectos({imagen,nombre,info, url}){
     </Carousel>
       </div>
       <div className="flex content-center justify-center py-5 md:px-5">
-      <form name="Formulario-contacto" method="post" netlify className="px-5 w-full max-w-3xl md:max-w-2.5xl lg:max-w-5xl 2xl:max-w-7xl">
+      <form name="Formulario-contacto" method="POST" data-netlify="true" onSubmit="submit" className="px-5 w-full max-w-3xl md:max-w-2.5xl lg:max-w-5xl 2xl:max-w-7xl">
         <Card className="pl-5 md:w-[calc(100vw-15rem)] xl:w-[calc(100vw-30rem)] 2xl:w-[calc(100vw-45rem)]">
                 <CardHeader>
                     <h2 className="font-bold text-2xl">Envia un correo</h2>
                 </CardHeader>
                 <CardContent className="block pr-0">
                     <Label for="name"><h3 className="text-left">Nombre:</h3></Label>
-                    <Input required type="text" name="nombre_usuario" className="mt-2 w-2/3" placeholder="m@example.com"/>
+                    <Input required type="text" name="name" className="mt-2 w-2/3"/>
                     <Label for="mail"><h3 className="text-left mt-5">Correo electronico</h3></Label>
-                    <Input required type="email" name="mail_usuario" className="mt-2 w-2/3"/>
+                    <Input required type="email" name="email" className="mt-2 w-2/3" placeholder="m@example.com"/>
                     <Label for="msg"><h3 className="text-left mt-5">Mensaje</h3></Label>
                     <Textarea required id="msg" name="mensaje_usuario" className="resize-none mt-2 w-3/4"/>
                     <Button type="submit" className="px-2/3 mt-4 w-4/5">Enviar</Button>

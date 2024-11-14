@@ -86,11 +86,11 @@ export function NavBar (){
                         href: "/proyectos/python",
                     }]}
             />
-            <ItemsNavbar
+            {/* <ItemsNavbar
                 label="Sobre mi"
                 href="/Sobre-mi"
                 menu={false}
-            />
+            /> */}
             </div>
             <div className="justify-end pr-0 md:pr-2">
             <ItemsNavbar
