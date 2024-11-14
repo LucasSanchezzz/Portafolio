@@ -72,7 +72,7 @@ function CrearProyectos({imagen,nombre,info, url}){
     </Carousel>
       </div>
       <div className="flex content-center justify-center py-5 md:px-5">
-      <form name="Formulario-contacto" method="POST" data-netlify="true" netlify onSubmit="submit" className="px-5 w-full max-w-3xl md:max-w-2.5xl lg:max-w-5xl 2xl:max-w-7xl">
+      <form   action="/" name="Formulario-contacto" method="POST" data-netlify="true" netlify onSubmit="submit" className="px-5 w-full max-w-3xl md:max-w-2.5xl lg:max-w-5xl 2xl:max-w-7xl">
         <Card className="pl-5 md:w-[calc(100vw-15rem)] xl:w-[calc(100vw-30rem)] 2xl:w-[calc(100vw-45rem)]">
                 <CardHeader>
                     <h2 className="font-bold text-2xl">Envia un correo</h2>
