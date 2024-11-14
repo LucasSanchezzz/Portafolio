@@ -67,7 +67,7 @@ export function NavBar (){
             <div className="w-screen">
             <ItemsNavbar
                 label="Inicio"
-                href="/Home"
+                href="/"
                 menu={false}
             />
             <ItemsNavbar
@@ -106,14 +106,14 @@ export function NavBar (){
             </div>
         </NavigationMenu>
         <Routes>
-            <Route path="/Home" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
             <Route path="/Proyectos" element={<Proyectoss/>}/>
         </Routes>
         <footer className="grid grid-cols-2 bg-navBar py-5 [&>*]:text-white">
             <ul className="flex flex-col content-around pl-10 xl:pl-20">
                 <ItemsFooter
                     label="Inicio"
-                    href="/Home"
+                    href="/"
                     />
                 <ItemsFooter
                     label="Proyectos"
