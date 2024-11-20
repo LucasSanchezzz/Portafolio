@@ -78,12 +78,12 @@ export function NavBar (){
                     {
                         label: "Desarrollo Web",
                         descripcion:"Proyectos sobre desarollo web y las nuevas tecnologías que voy a prendiendo",
-                        href: "/proyectos/web",
+                        // href: "/proyectos/web",
                     },
                     {
                         label: "Python",
-                        descripcion:"Proyecyos de python que van desde la automaticación e procesos a la inteligencia artificial",
-                        href: "/proyectos/python",
+                        descripcion:"Proyecyos de python que van desde la automaticación de procesos a la inteligencia artificial",
+                        // href: "/proyectos/python",
                     }]}
             />
             {/* <ItemsNavbar
